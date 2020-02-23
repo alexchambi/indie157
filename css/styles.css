@@ -1,0 +1,1428 @@
+body{
+    background-color: whitesmoke;
+}
+
+.navbar-top{
+	background-color: white !important;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-top .nav-link{
+	margin: 0px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+}
+
+.navbar-top a{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-top a:hover {
+	color: #dc3545;
+}
+
+.navbar{
+	background-color: white !important;
+	margin: 0px;
+	padding-top: 0px;
+	font-weight: bold;
+	border-bottom: 2px solid whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black
+}
+
+.publicidad-menu{
+	background-color: black;
+	justify-content: center;
+	margin: 0rem 0rem 0rem 0rem;
+  	padding: 1rem 0rem 1rem 0rem;
+  	text-align: center;
+}
+
+
+/*
+*	Publicidad Lateral
+*/
+.publicidad-lateral{
+	background-color: #403e3f;
+	justify-content: center;
+	text-align: center;
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
+	margin-bottom: 1rem;
+}
+.publicidad-lateral img{
+	text-align: center;
+	justify-content: center;
+}
+
+
+/*
+*	Contenido Principal
+*/
+
+.pagina-principal{
+	margin-top: 1rem;
+}
+
+.pagina-principal .noticias-principales{
+	margin-bottom: 1rem;
+}
+.pagina-principal .noticias-principales .imagen{
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+}
+.pagina-principal .noticias-principales .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+
+.pagina-principal .noticias-principales .carousel-indicators li{
+	background-color:#16f1b2;
+}
+
+.pagina-principal .noticias-principales .carousel .titulo{
+	font-weight: 400;
+
+}
+.pagina-principal .noticias-principales .carousel .contenido{
+	text-transform: none;
+
+	color: #b2b2b2;
+	font-weight: 350;
+}
+
+.pagina-principal .noticias-principales .carousel .titulo a{
+	text-decoration: none;
+	color: white;
+}
+.pagina-principal .noticias-principales .carousel .titulo a:hover {
+	color: #16f1b2;
+}
+
+
+/*
+*Noticias Secundarias
+*/
+.pagina-principal .noticias-secundarias{
+	background-color: white;
+	margin-bottom: 1rem;
+}
+.pagina-principal .noticias-secundarias .tarjeta-principal{
+	border: 10px solid #1d1d1d;
+	padding: 0px;
+}
+.pagina-principal .noticias-secundarias .tarjeta-principal .titulo-tarjeta{
+	color: white;
+	background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+	padding: 10px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-principal .noticias-secundarias .tarjeta-principal .titulo-tarjeta h2{
+	padding: 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta-principal .link-tarjeta{
+	color: white;
+	background-color: #1d1d1d;
+	margin: 0px;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+}
+.pagina-principal .noticias-secundarias .tarjeta-principal .link-tarjeta h6{
+	margin: 0px;
+}
+.pagina-principal .noticias-secundarias .tarjeta-principal .link-tarjeta h6 a{
+	text-decoration: none;
+	color: white;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta-principal .contenido-tarjeta{
+	padding: 2rem;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta-principal .tarjeta{
+	background-color: white;
+	height: 96%;
+	margin-bottom: 2rem;	
+}
+
+
+.pagina-principal .noticias-secundarias .tarjeta .imagen{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-principal .noticias-secundarias .tarjeta .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-cuerpo{
+	
+	border-bottom: 1px solid #474747;
+	
+	padding: 1rem;
+	margin: 0px;
+	height: 100%;
+	
+}
+
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-autor{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #474747;
+	margin: 0px;
+	font-weight: 500;
+}
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-titulo a{
+	text-decoration: none;
+	color: #1d1d1d;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-titulo a:hover{
+	color: #16f1b2;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta .tarjeta-tag{
+	color: #dc3545;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.pagina-principal .noticias-secundarias .tarjeta-principal .link-tarjeta h6 a:hover{
+	color: #5FD1F9;
+}
+
+
+.pagina-principal .propuestas{
+	background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );	
+}
+
+.pagina-principal .propuestas .titulo{
+	padding: 2rem;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+	border-bottom: 4px solid white;
+}
+.pagina-principal .propuestas .titulo h2{
+	color: white;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 700;
+}
+
+.pagina-principal .propuestas .contenido{
+	padding: 2rem 1rem 2rem 1rem;
+}
+
+.pagina-principal .propuestas .tarjeta{
+	background-color: white;
+	border-bottom: 3px solid #1d1d1d;
+	border-top: 2px solid #1d1d1d;
+	margin-bottom: 1rem;
+	height: 96%;
+}
+
+.pagina-principal .propuestas .tarjeta .imagen{
+	width: 100%;
+	height: 260px;
+	overflow: hidden;
+}
+.pagina-principal .propuestas .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-principal .propuestas .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+}
+
+.pagina-principal .propuestas .tarjeta-autor{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #474747;
+	margin: 0px;
+	font-weight: 500;
+}
+.pagina-principal .propuestas .tarjeta-fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.pagina-principal .propuestas .tarjeta-titulo a{
+	text-decoration: none;
+	color: #1d1d1d;
+}
+
+.pagina-principal .propuestas .tarjeta-titulo a:hover{
+	color: #16f1b2;
+}
+
+.pagina-principal .propuestas .tarjeta-tag{
+	color: #16f1b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+
+.pagina-principal .agenda{
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 1rem;
+	border: none;
+	height: 100%;
+}
+.pagina-principal .agenda .card h2{
+	padding: 0px;
+	margin: 0px;
+	font-weight: 700;
+}
+
+
+.pagina-principal .agenda .titulo{
+	justify-content: center;
+	background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+	color: white;
+}
+
+.pagina-principal .agenda .contenido-agenda{
+	border-top: none;
+}
+
+.pagina-principal .agenda .tarjeta{
+	margin-top: 1rem;
+	height: 100%;
+}
+
+.pagina-principal .agenda .tarjeta .imagen{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.pagina-principal .agenda .contenido-agenda .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(30%);
+}
+
+.pagina-principal .agenda .tarjeta-header{
+	padding: 1rem;
+	margin: 0px;
+	position: absolute;
+  	top: 8px;
+  	right: 16px;
+}
+.pagina-principal .agenda .tarjeta-header p{
+	padding: 0px;
+	margin: 0px;
+}
+.pagina-principal .agenda .tarjeta-header h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+.pagina-principal .agenda .tarjeta-header .tarjeta-mes{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.pagina-principal .agenda .tarjeta-header .tarjeta-dia{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.pagina-principal .agenda .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+	position: absolute;
+  	bottom: 2rem;
+  	left: 16px;
+}
+
+
+.pagina-principal .agenda .tarjeta-titulo a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: 600;
+}
+
+
+.pagina-principal .agenda .tarjeta-lugar{
+	color: #16f1b2;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.pagina-principal .agenda .tarjeta-ciudad{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+/*------------------------------------------------
+				PAGINA NOTICIAS
+-------------------------------------------------*/
+
+.pagina-noticias{
+	margin: 0px;
+	padding: 0px;
+	background-color: #d5d5d5;
+}
+
+.pagina-noticias .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	background: linear-gradient(0deg, #d5d5d5 50%,#1d1d1d 50%);
+	height: 240px;
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+
+.pagina-noticias .caja-titulo-pagina .row{
+	margin: 0px;
+}
+
+.pagina-noticias .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-noticias .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem;
+
+}
+.pagina-noticias .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.pagina-noticias .contenido-noticias{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+}
+
+.pagina-noticias .tarjeta{
+	background-color: white;
+	border-bottom: 3px solid #1d1d1d;
+	border-top: 2px solid #1d1d1d;
+	margin-bottom: 1rem;
+	height: 96%;
+}
+
+.pagina-noticias .tarjeta .imagen{
+	width: 100%;
+	height: 270px;
+	overflow: hidden;
+}
+.pagina-noticias .contenido-noticias .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-noticias .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+}
+
+.pagina-noticias .tarjeta-autor{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #474747;
+	margin: 0px;
+	font-weight: 500;
+}
+.pagina-noticias .tarjeta-fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+.pagina-noticias .tarjeta-titulo a{
+	text-decoration: none;
+	color: #1d1d1d;
+}
+.pagina-noticias .tarjeta-titulo a:hover{
+	color: #16f1b2;
+}
+.pagina-noticias .tarjeta-tag{
+	color: #dc3545;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*	FIN PAGINA NOTICIAS*/
+
+
+/*------------------------------------------------
+				PAGINA PROPUESTAS
+-------------------------------------------------*/
+.pagina-propuestas{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(to right,  rgb(51, 139, 147), rgb(182, 244, 146));
+}
+.pagina-propuestas .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	height: 240px;
+	background-image: linear-gradient(to right,  rgb(51, 139, 147), rgb(182, 244, 146));
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+.pagina-propuestas .caja-titulo-pagina .row{
+	margin: 0px;
+}
+.pagina-propuestas .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-propuestas .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem
+
+}
+.pagina-propuestas .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.pagina-propuestas .contenido-noticias{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+}
+.pagina-propuestas .tarjeta{
+	background-color: white;
+	border-bottom: 3px solid #1d1d1d;
+	border-top: 2px solid #1d1d1d;
+	margin-bottom: 1rem;
+	height: 96%;
+}
+.pagina-propuestas .tarjeta .imagen{
+	width: 100%;
+	height: 260px;
+	overflow: hidden;
+}
+.pagina-propuestas .contenido-noticias .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-propuestas .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+}
+.pagina-propuestas .tarjeta-autor{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #474747;
+	margin: 0px;
+	font-weight: 500;
+}
+.pagina-propuestas .tarjeta-fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+.pagina-propuestas .tarjeta-titulo a{
+	text-decoration: none;
+	color: #1d1d1d;
+}
+.pagina-propuestas .tarjeta-titulo a:hover{
+	color: #16f1b2;
+}
+.pagina-propuestas .tarjeta-tag{
+	color: #16f1b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*	FIN PAGINA PROPUESTAS*/
+
+
+/*------------------------------------------------
+				PAGINA AGENDA
+-------------------------------------------------*/
+.pagina-agenda{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.pagina-agenda .header-agenda{
+	width: 100%;
+	height: 400px;
+}
+.pagina-agenda .header-agenda .agenda-imagen{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.pagina-agenda .header-agenda .agenda-imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-agenda .header-agenda .agenda-imagen .agenda-mes{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+.pagina-agenda .header-agenda .agenda-imagen .agenda-mes h1{
+	font-weight: 900;
+	font-size: 10rem;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pagina-agenda .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	background: linear-gradient(0deg, whitesmoke 50%,#1d1d1d 50%);
+	height: 240px;
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+.pagina-agenda .caja-titulo-pagina .row{
+	margin: 0px;
+}
+.pagina-agenda .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-agenda .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem
+
+}
+.pagina-agenda .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.pagina-agenda .contenido-agenda{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+}
+.pagina-agenda .tarjeta{
+	margin-bottom: 2rem;
+	height: 100%;
+}
+.pagina-agenda .tarjeta .imagen{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.pagina-agenda .contenido-agenda .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(30%);
+}
+.pagina-agenda .tarjeta-header{
+	padding: 1rem;
+	margin: 0px;
+	position: absolute;
+  	top: 8px;
+  	right: 16px;
+}
+.pagina-agenda .tarjeta-header p{
+	padding: 0px;
+	margin: 0px;
+}
+.pagina-agenda .tarjeta-header h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+.pagina-agenda .tarjeta-header .tarjeta-mes{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+.pagina-agenda .tarjeta-header .tarjeta-dia{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+.pagina-agenda .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+	position: absolute;
+  	bottom: 2rem;
+  	left: 16px;
+}
+.pagina-agenda .tarjeta-titulo a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: 600;
+}
+.pagina-agenda .tarjeta-lugar{
+	color: #16f1b2;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.pagina-agenda .tarjeta-ciudad{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*	FIN PAGINA AGENDA*/
+
+
+/*------------------------------------------------
+				PAGINA MAGAZINE
+-------------------------------------------------*/
+.pagina-magazine{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient( 106.4deg,  rgba(255,104,192,1) 11.1%, rgba(104,84,249,1) 81.3% );
+}
+.pagina-magazine .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	background-image: linear-gradient( 106.4deg,  rgba(255,104,192,1) 11.1%, rgba(104,84,249,1) 81.3% );
+	height: 240px;
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+.pagina-magazine .caja-titulo-pagina .row{
+	margin: 0px;
+}
+.pagina-magazine .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-magazine .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem
+
+}
+.pagina-magazine .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.pagina-magazine .contenido-noticias{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+	
+}
+.pagina-magazine .tarjeta{
+	background-color: white;
+	border-bottom: 3px solid #1d1d1d;
+	border-top: 2px solid #1d1d1d;
+	margin-bottom: 1rem;
+	height: 96%;
+	
+}
+.pagina-magazine .tarjeta .imagen{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.pagina-magazine .contenido-noticias .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(30%);
+}
+.pagina-magazine .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+	position: absolute;
+  	bottom: 2rem;
+	left: 16px;
+	color: #b2b2b2;
+}
+.pagina-magazine .tarjeta-titulo{
+	font-weight: 900;
+	padding: 0px;
+	margin: 0px;
+}
+.pagina-magazine .tarjeta-titulo a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*	FIN PAGINA MAGAZINE*/
+
+
+/*----------------------------
+	PAGINA DE MISCELANEA
+------------------------------*/
+
+.pagina-miscelanea{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgba(229,109,212,1) 48.9%, rgba(255,68,128,1) 68.2%, rgba(255,94,0,1) 86.4% );
+
+}
+.pagina-miscelanea .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	height: 240px;
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+.pagina-miscelanea .caja-titulo-pagina .row{
+	margin: 0px;
+}
+.pagina-miscelanea .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-miscelanea .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem
+
+}
+.pagina-miscelanea .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.pagina-miscelanea .contenido-noticias{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+}
+.pagina-miscelanea .tarjeta{
+	color: white;
+	background-color: transparent;
+	border-bottom: 3px solid white;
+	border-top: 2px solid white;
+	padding-bottom: 2rem;
+	height: 96%;
+}
+.pagina-miscelanea .tarjeta .imagen{
+	width: 100%;
+	height: 310px;
+	overflow: hidden;
+}
+.pagina-miscelanea .contenido-noticias .imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}
+.pagina-miscelanea .tarjeta-cuerpo{
+	padding: 1rem;
+	margin: 0px;
+}
+.pagina-miscelanea .tarjeta-autor{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #474747;
+	margin: 0px;
+	font-weight: 500;
+}
+.pagina-miscelanea .tarjeta-fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+.pagina-miscelanea .tarjeta-titulo a{
+	text-decoration: none;
+	color: white;
+}
+
+.pagina-miscelanea .tarjeta-titulo a:hover{
+	color: #1d1d1d;
+}
+
+.pagina-miscelanea .tarjeta-tag{
+	color: #16f1b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/*	FIN PAGINA MAGAZINE*/
+
+
+/*------------------------------------------
+				PAGINA POST NOTICIA
+--------------------------------------------*/
+.pagina-post{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.pagina-post .header-post{
+	width: 100%;
+	height: 450px;
+}
+.pagina-post .header-post .post-imagen{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+}
+.pagina-post .header-post .post-imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(40%);
+}
+.pagina-post .caja-titulo{
+	justify-content: center;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.pagina-post .caja-titulo .row{
+	margin: 0px;
+	padding: 0px;
+}
+.pagina-post .caja-titulo .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-post .caja-titulo .caja-titulo .titulo{
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	padding: 2rem 1rem 2rem 1rem
+
+}
+.pagina-post .caja-titulo .caja-titulo .titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.pagina-post .contenido-post{
+	padding: 0px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.pagina-post .contenido-post .information-post{
+	margin: 0px;
+	padding: 0px;
+}
+.pagina-post .contenido-post .information-post .autor{
+	margin: 0px;
+	padding: 0px;
+	font-weight: 500;
+	color: #474747;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.pagina-post .contenido-post .information-post .fecha{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+.pagina-post .contenido-post .information-post .tag{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 800;
+	color: #16f1b2;
+}
+
+.pagina-post .contenido-post .contenido{
+	margin: 0rem, 0rem 3rem 0rem;
+	padding: 0px;
+	justify-content: center;
+	border-bottom: 2px solid #b2b2b2;
+	padding-bottom: 3rem;
+}
+.pagina-post .contenido-post .contenido h2{
+	margin: 0px;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+	font-size: 2.1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: start;
+}
+.pagina-post .contenido-post .contenido h2{
+	margin: 0px;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+	font-size: 2.1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: start;
+}
+.pagina-post .contenido-post .contenido a{
+	color: #16f1b2;
+	font-weight: 700;
+	text-decoration: none;
+}
+.pagina-post .contenido-post .contenido a:hover{
+	color: #5FD1F9;
+}
+.pagina-post .contenido-post .contenido p{
+	color: #474747;
+	font-weight: 400;
+	font-size: 18px;
+	justify-content: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 0.5rem 0rem 0rem 0rem;
+}
+.pagina-post .contenido-post .contenido img{
+	text-align: center;
+	justify-content: center;
+	height: auto;
+	width: 85%;
+	padding: 0.2rem 0rem 0.2rem 0rem;
+}
+
+.pagina-post .contenido-post .contenido blockquote{
+	
+	padding: 0.5rem 0rem 0.5rem 0rem;
+	justify-content: center;
+	text-align: center;
+	border-top: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	border-bottom: 1px solid #1d1d1d;
+	background-color: white;
+}
+.pagina-post .contenido-post .footer-post{
+	margin: 0px;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 30px solid whitesmoke;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.pagina-post .contenido-post .footer-post .autor{
+	margin: 0px;
+	padding: 0px;
+	font-weight: 500;
+	color: #474747;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.pagina-post .contenido-post .footer-post .redaccion{
+	color: #b2b2b2;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/*
+*	FIN PAGINA ITEM NOTICIA
+*/
+
+
+
+/*------------------------------------------------
+				PAGINA ESTATICAS
+-------------------------------------------------*/
+
+.pagina-estatica{
+	margin: 0px;
+	padding: 0px;
+	background-color: whitesmoke;
+}
+
+.pagina-estatica .caja-titulo-pagina{
+	margin: 0px;
+	padding: 3rem;
+	background: linear-gradient(0deg, whitesmoke 50%,#1d1d1d 50%);
+	height: 240px;
+	justify-content: center;
+	text-align: center;
+	border: 10px solid #1d1d1d;
+	border-bottom: none;
+	border-top: none;
+}
+
+.pagina-estatica .caja-titulo-pagina .row{
+	margin: 0px;
+}
+
+.pagina-estatica .caja-titulo-pagina .caja-titulo{
+	background-color: white;
+	margin: 0px;
+	justify-content: center;
+	text-align: center;
+}
+.pagina-estatica .caja-titulo-pagina .caja-titulo .nombre-titulo{
+	justify-content: center;
+	text-align: center;
+	border: .75rem solid transparent;
+	border-image: linear-gradient(135deg,#bfff58,#16f1b2);
+	border-image-slice: 1;
+	padding: 2rem 1rem 2rem 1rem;
+
+}
+.pagina-estatica .caja-titulo-pagina .caja-titulo .nombre-titulo h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.pagina-estatica .contenido-estatico{
+	border: 10px solid #1d1d1d;
+	border-top: none;
+}
+.pagina-estatica .contenido-estatico .contenido{
+	padding: 1rem 0rem 1rem 0rem;
+}
+.pagina-estatica .contenido-estatico h1, h2, h3, h4, h5{
+	font-weight: 700;
+	padding: 0rem 0rem 1rem 0rem;
+}
+.pagina-estatica .contenido-estatico p{
+	font-size: 17px;
+}
+.pagina-estatica .contenido-estatico a{
+	text-decoration: none;
+	color: #16f1b2;
+	font-weight: 600;
+}
+.pagina-estatica .contenido-estatico a:hover{
+	color: #5FD1F9;
+}
+
+
+/*	FIN PAGINA ESTATICA*/
+
+
+
+footer{
+	padding: 4rem 2rem 4rem 2rem; 
+	background-color: #1d1d1d;
+	color: white;
+	border-bottom: 10px solid #dc3545;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer .footer-menu{
+	padding-bottom: 3rem;
+	border-bottom: 1px solid #dc3545;
+	justify-content: center !important;
+	text-align: center !important;
+	
+}
+
+footer .nav-link{
+	text-decoration: none;
+	color: white;
+}
+
+footer .nav-link a i{
+	font-size: 2rem;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #dc3545;
+}
+
+footer .footer-redes{
+	padding: 2rem 3rem 1rem 3rem;
+}
+
+
+
+/*
+*	TELEFONOS
+*/
+
+@media (max-width: 575.98px) {
+	.pagina-principal .noticias-principales .imagen{
+		height: 270px;
+	}
+	.pagina-noticias .titulo-contenido{
+		top: 40%;
+	}
+	.pagina-noticias .titulo-contenido h1{
+		padding: 15px 50px 15px 50px;
+	}
+
+	.pagina-noticias .caja-titulo-pagina{
+		margin: 0px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.pagina-propuestas .caja-titulo-pagina{
+		margin: 0px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.pagina-magazine .caja-titulo-pagina{
+		margin: 0px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.pagina-miscelanea .caja-titulo-pagina{
+		margin: 0px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.pagina-agenda .caja-titulo-pagina{
+		margin: 0px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes{
+		top: 55%;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes h1{
+		font-size: 3.4rem;
+		margin: 0px;
+		padding: 0px;
+	}
+	.pagina-agenda .header-agenda{
+		width: 100%;
+		height: 300px;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen{
+		width: 100%;
+		height: 400px;
+		overflow: hidden;
+	}
+
+	.pagina-post .header-post{
+		height: 270px;
+	}
+	.pagina-post .header-post .post-imagen{
+		height: 370px;
+	}
+	.pagina-post .caja-titulo .caja-titulo .titulo h1{
+		font-size: 1.3rem;
+	}
+	.pagina-post .contenido-post .contenido h2{
+		font-size: 1.5rem;
+		text-align: start;
+	}
+	.pagina-post .contenido-post .contenido p{
+		font-size: 17px;
+	}
+
+	.pagina-magazine .tarjeta .imagen{
+		height: 350px;
+	}
+
+	.pagina-propuestas .caja-titulo-pagina .caja-titulo .nombre-titulo{
+		padding: 2rem 0rem 2rem 0rem
+	}
+
+	.pagina-miscelanea .caja-titulo-pagina .caja-titulo .nombre-titulo{
+		padding: 2rem 0rem 2rem 0rem
+	}
+
+	.pagina-estatica .caja-titulo-pagina .caja-titulo .nombre-titulo{
+		padding: 2rem 0rem 2rem 0rem
+	}
+
+	.pagina-estatica .caja-titulo-pagina .caja-titulo .nombre-titulo{
+		padding: 2rem 0rem 2rem 0rem
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes{
+		top: 80%;
+		justify-content: center;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes h1{
+		font-size: 5rem;
+		margin: 0px;
+		padding: 0px;
+	}
+
+
+	.pagina-post .header-post{
+		height: 270px;
+	}
+	.pagina-post .header-post .post-imagen{
+		height: 370px;
+	}
+	.pagina-post .caja-titulo .caja-titulo .titulo h1{
+		font-size: 2rem;
+	}
+	.pagina-post .contenido-post .contenido h2{
+		font-size: 1.8rem;
+		text-align: start;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes{
+		top: 50%;
+		justify-content: center;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes h1{
+		font-size: 7rem;
+		margin: 0px;
+		padding: 0px;
+	}
+	.pagina-post .header-post{
+		height: 270px;
+	}
+	.pagina-post .header-post .post-imagen{
+		height: 370px;
+	}
+	.pagina-post .caja-titulo .caja-titulo .titulo h1{
+		font-size: 2.1rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes{
+		top: 50%;
+		justify-content: center;
+	}
+	.pagina-agenda .header-agenda .agenda-imagen .agenda-mes h1{
+		font-size: 8.5rem;
+		margin: 0px;
+		padding: 0px;
+	}
+ }
+
+@media (min-width: 1200px) {  }
